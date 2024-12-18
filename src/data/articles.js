@@ -3,7 +3,7 @@ import React from "react";
 function article_1() {
 	return {
 		date: "7 May 2023",
-		title: "The Benefits of Cloud Computing  ",
+		title: "The Benefits of Cloud Computing",
 		description:
 			"Cloud computing offers a range of benefits, including cost savings and increased flexibility. Find out why more businesses are turning to the cloud.",
 		keywords: [
