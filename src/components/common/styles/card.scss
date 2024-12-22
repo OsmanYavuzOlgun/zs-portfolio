@@ -1,4 +1,5 @@
 @import "../../../data/styles.css";
+
 .card {
   mix-blend-mode: normal;
   border-radius: 20px;
@@ -37,12 +38,14 @@
     padding: 20px;
     padding-bottom: 10px;
   }
+
   .card-title {
     font-size: 12px;
     padding-left: 10px;
   }
+
   .card-body {
     padding-top: 20px;
     font-size: 13px;
   }
-}/*# sourceMappingURL=card.css.map */
+}
