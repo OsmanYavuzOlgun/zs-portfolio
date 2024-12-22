@@ -1,4 +1,5 @@
 @import "../../../data/styles.css";
+
 .footer {
   display: flex;
   padding-top: 25px;
@@ -31,9 +32,10 @@
 .footer-nav-link-list a {
   text-decoration: none;
   color: var(--secondary-color);
-}
-.footer-nav-link-list a:hover {
-  color: var(--link-color);
+
+  &:hover {
+    color: var(--link-color);
+  }
 }
 
 .footer-credits-text {
@@ -48,12 +50,14 @@
     flex-direction: column;
     height: 85px;
   }
+
   .footer-links {
     display: flex;
     width: 100%;
     justify-content: center;
   }
+
   .footer-nav-link-list {
     width: 100%;
   }
-}/*# sourceMappingURL=footer.css.map */
+}
